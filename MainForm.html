@@ -47,16 +47,11 @@
             });
             
             contactList.appendChild(ul);
-        }
-
+        }        
         function addNewContact(fullName, phoneNumber) {
             contacts.push({ fullName, phoneNumber });
             displayContacts();
         }
-
-        document.getElementById('addContactBtn').addEventListener('click', function() {
-            window.open('AddContactForm.html', 'AddContact', 'width=500,height=400,resizable=yes');
-        }); 
         
         displayContacts();
     </script>
